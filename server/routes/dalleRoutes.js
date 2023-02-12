@@ -37,4 +37,5 @@ router.route("/").post(async (req, res) => {
     res.status(500).send(err?.response?.data?.error?.message);
   }
 });
+
 export default router;
